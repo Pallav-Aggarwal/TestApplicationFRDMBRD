@@ -27,6 +27,7 @@ int main(void)
 	//PTB->PDDR |= (1 << 18); //Configure PTB18 pin as output
 	//PTB->PDDR |= (1 << 19); //Configure PTB19 pin as output
 	PTD->PDDR |= (1<< 1); // Configure PTD1 pin as output
+	PTD->PDDR |= (1<< 1); // Configure PTD1 pin as output
 	
 
 	
